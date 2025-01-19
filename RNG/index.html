@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Random Number Generator</title>
+	</head>
+	<body>
+		<h1>RANDOM NUMBER GENERATOR</h1>
+		<p>Please enter a minimum figure and a maximum figure and then click the button below to get a random number in the specified range.</p>
+		<form id="rng-inputs">
+			<label for="min">Min: </label><input id="min" name="min" type="number"   placeholder="0" required/>
+			<label for="max">Max: </label><input id="max" name="max" type="number"   placeholder="1000" required/>
+			<input type="submit" value="Click Me!"  id="rng-btn">
+		</form>
+		<span id="random-number"></span>
+		<script src="script.js"></script>
+	</body>
+</html>
