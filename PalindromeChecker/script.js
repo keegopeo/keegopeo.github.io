@@ -19,6 +19,7 @@ const checkPalindrome = () => {
 	const cleanedText = cleanString(userTextBox.value);
 	const reversedText = toReverse(cleanedText);
 	resultElement.innerText = cleanedText === reversedText? `${userTextBox.value} is a palindrome`: `${userTextBox.value} is not a palindrome`;
+	resultElement.style.color = cleanedText === reversedText? "green": "red";
 	resultElement.style.display = "block";
 };
 
