@@ -1,0 +1,36 @@
+body {
+  background: black;
+  color: maroon;
+  text-align: center;
+}
+.main-title {
+  text-decoration: underline;
+}
+.subtitle {
+  margin-top: 0;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+#result {
+  display: none;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.main-title, .subtitle {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+.palindrome-container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+#check-btn, #text-input {
+    display: block;
+    margin: 5px auto 0;
+  }
+#text-input {
+    width: 70%;
+  }
