@@ -22,11 +22,16 @@ const checkPalindrome = () => {
 	resultElement.style.color = cleanedText === reversedText? "green": "red";
 	resultElement.style.display = "block";
 };
-
-checkButton.addEventListener("click", () => {
+const callChecker = () => {
 	if (userTextBox?.value) {
 		checkPalindrome();
 	} else {
 		window.alert("Please input a value")
 	}
-})
+};
+checkButton.addEventListener("click", callChecker);
+userTextBox.addEventListener("keydown", (e) => {
+	if (e.key = "Enter") {
+		callChecker();
+	}
+});
