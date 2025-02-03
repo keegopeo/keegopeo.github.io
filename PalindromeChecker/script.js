@@ -31,7 +31,7 @@ const callChecker = () => {
 };
 checkButton.addEventListener("click", callChecker);
 userTextBox.addEventListener("keydown", (e) => {
-	if (e.key = "Enter") {
+	if (e.key === "Enter") {
 		callChecker();
 	}
 });
