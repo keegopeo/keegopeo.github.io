@@ -35,6 +35,8 @@ body {
 }
 #rules {
   font-size: 1.3rem;
+  width: 60%;
+  margin: 5px auto;
 }
 #rules-table {
   border: solid 1px white;
