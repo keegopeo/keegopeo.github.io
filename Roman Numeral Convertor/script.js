@@ -21,7 +21,7 @@ const toRoman = num => {
 	if (convNum > 3999) {
 		return "Please enter a number less than or equal to 3999";
 	}
-	if (convNum < 0) {
+	if (convNum <= 0) {
 		return "Please enter a number greater than or equal to 1";
 	}
 
