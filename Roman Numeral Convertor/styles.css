@@ -28,7 +28,7 @@ body {
   display: none;
   border: double 2px white;
   height: 35%;
-  width: 75%;
+  width: fit-content;
   text-align: center;
   font-size: 3rem;
   margin: 5px auto 0;
